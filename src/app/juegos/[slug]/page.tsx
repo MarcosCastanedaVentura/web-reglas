@@ -1,5 +1,6 @@
 import { getJuego, getTodosLosJuegos } from "@/lib/juegos";
 import { notFound } from "next/navigation";
+import ChatIA from "@/components/ui/ChatIA";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -18,6 +19,7 @@ export default async function JuegoPage({ params }: Props) {
 
   return (
     <main className="min-h-screen bg-gray-50 px-6 py-12">
+    <ChatIA juego={juego} />
       <div className="max-w-3xl mx-auto">
 
         {/* Cabecera */}
@@ -85,5 +87,6 @@ export default async function JuegoPage({ params }: Props) {
 
       </div>
     </main>
+    
   );
 }

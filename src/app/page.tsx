@@ -1,5 +1,5 @@
 import { getTodosLosJuegos } from "@/lib/juegos";
-import JuegoCard from "@/components/ui/JuegoCard";
+import ListaJuegos from "@/components/ui/ListaJuegos";
 
 export default async function Home() {
   const juegos = await getTodosLosJuegos();
@@ -21,17 +21,7 @@ export default async function Home() {
         </p>
       </div>
 
-      {/* Grid de juegos */}
-      <section>
-        <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-6">
-          Juegos disponibles
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {juegos.map((juego) => (
-            <JuegoCard key={juego.slug} juego={juego} />
-          ))}
-        </div>
-      </section>
+      <ListaJuegos juegos={juegos} />
 
     </main>
   );
