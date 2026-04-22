@@ -1,0 +1,75 @@
+{
+    "slug": "poker",
+    "nombre": "Poker",
+    "descripcion": "El juego de cartas más popular del mundo. Combina estrategia, psicología y un poco de suerte para llevarte el bote.",
+    "jugadores": "2-10 jugadores",
+    "duracion": "60-180 min",
+    "dificultad": "Difícil",
+    "pdf": "/pdfs/poker.pdf",
+    "imagen": "/juegos/poker.jpg",
+    "reglas": [
+      {
+        "titulo": "Objetivo del juego",
+        "contenido": [
+          "El objetivo es ganar las fichas de los demás jugadores.",
+          "Se gana consiguiendo la mejor combinación de 5 cartas usando tus 2 cartas privadas y las 5 cartas comunitarias de la mesa.",
+          "También puedes ganar haciendo que todos los demás jugadores se retiren (fold)."
+        ]
+      },
+      {
+        "titulo": "Estructura de la mano",
+        "contenido": [
+          "Cada mano comienza con las apuestas obligatorias: small blind y big blind.",
+          "Se reparten 2 cartas privadas (hole cards) a cada jugador.",
+          "Primera ronda de apuestas (preflop).",
+          "Se revelan 3 cartas comunitarias (el flop) y hay una nueva ronda de apuestas.",
+          "Se revela una cuarta carta comunitaria (el turn) y otra ronda de apuestas.",
+          "Se revela la quinta y última carta comunitaria (el river) y la ronda de apuestas final.",
+          "Si hay más de un jugador activo, se hace el showdown y gana la mejor mano."
+        ]
+      },
+      {
+        "titulo": "Acciones posibles",
+        "contenido": [
+          "Fold: retirarse de la mano y perder las apuestas ya realizadas.",
+          "Check: pasar el turno sin apostar, solo posible si nadie ha apostado antes.",
+          "Call: igualar la apuesta del jugador anterior.",
+          "Raise: subir la apuesta actual.",
+          "All-in: apostar todas tus fichas."
+        ]
+      },
+      {
+        "titulo": "Ranking de manos",
+        "contenido": [
+          "Escalera Real: A, K, Q, J, 10 del mismo palo. La mano más alta.",
+          "Escalera de Color: cinco cartas consecutivas del mismo palo.",
+          "Póker: cuatro cartas del mismo valor.",
+          "Full House: tres cartas del mismo valor más una pareja.",
+          "Color: cinco cartas del mismo palo.",
+          "Escalera: cinco cartas consecutivas de distintos palos.",
+          "Trío: tres cartas del mismo valor.",
+          "Doble Pareja: dos pares de cartas del mismo valor.",
+          "Pareja: dos cartas del mismo valor.",
+          "Carta Alta: cuando ninguna mano aplica, gana la carta más alta."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Qué pasa si dos jugadores tienen la misma mano?",
+        "respuesta": "Se comparan las cartas de mayor valor dentro de esa mano. Si siguen siendo iguales, el bote se reparte a partes iguales entre los jugadores empatados."
+      },
+      {
+        "pregunta": "¿Puedo usar las dos cartas comunitarias y ninguna de mi mano?",
+        "respuesta": "No. En Texas Hold'em debes usar obligatoriamente tus 2 cartas privadas junto con 3 de las 5 cartas comunitarias para formar tu mano."
+      },
+      {
+        "pregunta": "¿Qué es un blind?",
+        "respuesta": "Son apuestas obligatorias que hacen los dos jugadores a la izquierda del dealer antes de ver sus cartas. El small blind apuesta la mitad del mínimo y el big blind el mínimo completo. Sirven para que siempre haya dinero en juego."
+      },
+      {
+        "pregunta": "¿Cuándo se mueve el dealer?",
+        "respuesta": "El botón de dealer se mueve una posición a la izquierda después de cada mano, de forma que todos los jugadores pasen por todas las posiciones de forma equitativa."
+      }
+    ]
+  }

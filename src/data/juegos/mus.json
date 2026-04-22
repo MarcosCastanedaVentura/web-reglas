@@ -1,0 +1,58 @@
+{
+    "slug": "mus",
+    "nombre": "Mus",
+    "descripcion": "El mus es un juego de cartas español por parejas en el que la estrategia y los engaños son clave para ganar.",
+    "jugadores": "4 (2 parejas)",
+    "duracion": "30-60 min",
+    "dificultad": "Media",
+    "pdf": "/juegos/mus.pdf",
+    "imagen": "/juegos/mus.jpg",
+    "reglas": [
+      {
+        "titulo": "Objetivo del juego",
+        "contenido": [
+          "El objetivo es ser la primera pareja en alcanzar 40 piedras (puntos).",
+          "Las piedras se van acumulando a lo largo de varias manos ganando las distintas apuestas."
+        ]
+      },
+      {
+        "titulo": "El reparto",
+        "contenido": [
+          "Se reparten 4 cartas a cada jugador.",
+          "Tras el reparto, los jugadores pueden pedir cambio de cartas diciendo 'mus'. Si todos dicen mus, se descartan y roban nuevas cartas.",
+          "Si algún jugador dice 'no hay mus', se pasa directamente a las apuestas."
+        ]
+      },
+      {
+        "titulo": "Las apuestas",
+        "contenido": [
+          "Hay cuatro rondas de apuestas en orden: Grande, Chica, Pares y Juego (o Punto si nadie tiene juego).",
+          "En Grande gana quien tenga las cartas más altas.",
+          "En Chica gana quien tenga las cartas más bajas.",
+          "En Pares gana quien tenga la mejor combinación de cartas iguales.",
+          "En Juego gana quien sume 31 o más puntos, o el más cercano a 31."
+        ]
+      },
+      {
+        "titulo": "Las señas",
+        "contenido": [
+          "Las parejas pueden comunicarse en secreto mediante señas acordadas antes de la partida.",
+          "Las señas son parte fundamental del juego y completamente legales."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Qué pasa si hay empate en Grande o Chica?",
+        "respuesta": "Si hay empate, no se lleva nadie los puntos de esa apuesta. Se quedan en el centro y nadie los gana."
+      },
+      {
+        "pregunta": "¿Cuánto vale el órdago?",
+        "respuesta": "El órdago es una apuesta al todo o nada. Si el rival lo acepta, quien gane esa mano gana la partida entera independientemente de las piedras acumuladas."
+      },
+      {
+        "pregunta": "¿Se pueden ver las señas del rival?",
+        "respuesta": "Sí, si descubres las señas del rival puedes aprovecharte de esa información. No hay regla que lo prohíba."
+      }
+    ]
+  }

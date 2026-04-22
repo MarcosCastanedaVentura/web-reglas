@@ -1,0 +1,103 @@
+{
+    "slug": "catan",
+    "nombre": "Catan",
+    "descripcion": "Coloniza la isla de Catan recolectando recursos, construyendo poblados y ciudades, y comerciando con los demás jugadores. El primero en llegar a 10 puntos de victoria gana.",
+    "jugadores": "3-4 jugadores",
+    "duracion": "60-120 min",
+    "dificultad": "Media",
+    "imagen": "/juegos/catan.jpg",
+    "pdf": "/pdfs/catan.pdf",
+    "reglas": [
+      {
+        "titulo": "Objetivo del juego",
+        "contenido": [
+          "El primer jugador en alcanzar 10 puntos de victoria en su turno gana la partida.",
+          "Los puntos se consiguen construyendo poblados y ciudades, teniendo la mayor ruta comercial, el mayor ejército y con cartas de puntos de victoria."
+        ]
+      },
+      {
+        "titulo": "Preparación de la partida",
+        "contenido": [
+          "Encaja las 6 piezas de marco y coloca los hexágonos de terreno aleatoriamente en el interior.",
+          "Coloca las fichas numeradas por orden alfabético empezando por una esquina en sentido antihorario. Saltate el desierto.",
+          "Cada jugador elige un color y recibe 5 poblados, 4 ciudades, 15 carreteras y una tabla de costes.",
+          "Se realizan dos rondas de fundación: en la primera cada jugador coloca 1 poblado y 1 carretera en sentido horario, en la segunda en sentido antihorario.",
+          "Tras colocar el segundo poblado cada jugador recibe las materias primas de los terrenos adyacentes."
+        ]
+      },
+      {
+        "titulo": "Desarrollo del turno",
+        "contenido": [
+          "1. Tirar los dados para producir materias primas.",
+          "2. Comerciar con otros jugadores o con el banco.",
+          "3. Construir poblados, ciudades, carreteras o comprar cartas de desarrollo."
+        ]
+      },
+      {
+        "titulo": "Producción de materias primas",
+        "contenido": [
+          "Al tirar los dados, todos los jugadores con poblados o ciudades en terrenos con esa ficha numerada reciben materias primas.",
+          "Un poblado da 1 carta, una ciudad da 2 cartas.",
+          "Bosque=Madera, Pasto=Lana, Sembrado=Cereal, Cerro=Arcilla, Montaña=Mineral. El Desierto no produce.",
+          "Si sale un 7, nadie produce y se activa el ladrón."
+        ]
+      },
+      {
+        "titulo": "Comercio",
+        "contenido": [
+          "Comercio interior: solo el jugador activo puede comerciar con los demás. No se pueden regalar cartas.",
+          "Sin puerto: cambio 4:1 con el banco.",
+          "Puerto básico (3:1): devuelves 3 cartas iguales y tomas 1 cualquiera.",
+          "Puerto especializado (2:1): devuelves 2 cartas del tipo indicado y tomas 1 cualquiera."
+        ]
+      },
+      {
+        "titulo": "Construcción",
+        "contenido": [
+          "Carretera: 1 Madera + 1 Arcilla.",
+          "Poblado: 1 Madera + 1 Arcilla + 1 Lana + 1 Cereal.",
+          "Ciudad: 2 Cereal + 3 Mineral.",
+          "Carta de desarrollo: 1 Lana + 1 Cereal + 1 Mineral.",
+          "Los poblados deben respetar la regla de la distancia: mínimo 2 caminos de separación con cualquier otro poblado o ciudad."
+        ]
+      },
+      {
+        "titulo": "El ladrón",
+        "contenido": [
+          "Se activa con una tirada de 7 o jugando una carta de Caballero.",
+          "Todo jugador con más de 7 cartas debe devolver la mitad al banco.",
+          "El jugador activo mueve el ladrón a cualquier terreno, bloqueando su producción.",
+          "El jugador activo puede robar 1 carta al azar a un jugador adyacente al ladrón."
+        ]
+      },
+      {
+        "titulo": "Cartas de desarrollo",
+        "contenido": [
+          "Caballero: mueve el ladrón y roba 1 materia prima a un jugador adyacente.",
+          "Carreteras: coloca 2 carreteras gratis.",
+          "Invento: toma 2 cartas de materias primas cualesquiera del banco.",
+          "Monopolio: todos los jugadores te entregan todas sus cartas del tipo que elijas.",
+          "Puntos de victoria: vale 1 punto, se mantiene oculta hasta ganar.",
+          "Solo se puede jugar 1 carta de desarrollo por turno y no se puede jugar una carta comprada ese mismo turno."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Qué pasa si dos jugadores empatan en la mayor ruta comercial?",
+        "respuesta": "Si el jugador que posee la tarjeta está entre los empatados, la conserva. Si no, la tarjeta se deja a un lado hasta que alguien tenga la ruta más larga en solitario."
+      },
+      {
+        "pregunta": "¿Puedo jugar una carta de desarrollo antes de tirar los dados?",
+        "respuesta": "Sí, las cartas de Caballero y de Progreso pueden jugarse en cualquier momento del turno, incluso antes de tirar los dados. Pero no puedes jugar una carta que hayas comprado en ese mismo turno."
+      },
+      {
+        "pregunta": "¿Los poblados propios interrumpen mi ruta comercial?",
+        "respuesta": "No. Solo los poblados o ciudades de otros jugadores construidos en una encrucijada de tu ruta pueden interrumpirla."
+      },
+      {
+        "pregunta": "¿Qué ocurre si nadie tiene 5 carreteras cuando se interrumpe la mayor ruta?",
+        "respuesta": "La tarjeta se deja a un lado y no pertenece a nadie hasta que algún jugador vuelva a tener la ruta más larga en solitario con al menos 5 carreteras."
+      }
+    ]
+  }
