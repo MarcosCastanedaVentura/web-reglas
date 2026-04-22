@@ -3,3 +3,5 @@
 @theme {
   --color-blue-light: rgb(79 70 229);
 }
+
+@variant dark (&:where(.dark, .dark *));

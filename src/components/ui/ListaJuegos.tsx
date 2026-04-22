@@ -36,7 +36,7 @@ export default function ListaJuegos({ juegos }: Props) {
             placeholder="Buscar juego..."
             value={busqueda}
             onChange={(e) => setBusqueda(e.target.value)}
-            className="w-full bg-white border border-gray-200 rounded-xl pl-9 pr-4 py-2.5 text-sm focus:outline-none focus:border-indigo-400 shadow-sm"
+            className="w-full bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 text-gray-900 dark:text-white rounded-xl pl-9 pr-4 py-2.5 text-sm focus:outline-none focus:border-red-400 shadow-sm"
           />
         </div>
 
@@ -45,9 +45,9 @@ export default function ListaJuegos({ juegos }: Props) {
             <button
               key={d}
               onClick={() => setDificultad(d)}
-              className={`px-3 py-2 rounded-xl text-sm font-medium transition-colors border ${
+              className={`px-3 py-2 rounded-xl text-sm font-medium transition-colors bg-white dark:bg-gray-900 border text-gray-900 dark:text-white border-gray-200 dark:border-gray-800 ${
                 dificultad === d
-                  ? "bg-indigo-600 text-white border-indigo-600"
+                  ? "bg-indigo-600 text-black dark:text-white border-indigo-600"
                   : "bg-white text-gray-500 border-gray-200 hover:border-indigo-300"
               }`}
             >
